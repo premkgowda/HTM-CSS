@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>My Portfolio</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row"> 
+        <div class="col-md-6">
+          <img class="title-logo" src="images/namaste_1.jpg" alt="Namaste!!!">
+        </div>
+        <div class="col-md-6 text-right text-uppercase"> 
+          <h1 class="title-super text-thin"> Prem Krishna </h1>
+          <h4 class="text-bold"> Front-End Ninja</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive img-rounded" src="images/candles.jpg" alt="Puppy">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted"> Featured Work</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img class="img-responsive img-rounded" src="images/cake_side.jpg"  alt="Chocolate Cake" data-toggle="modal" data-target="#picture1">
+          <h2 class="text-uppercase text-bold">Chocolate cake</h2>
+          <p>http://github/premkgowda/cake_chocolate</p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive img-rounded" src="images/gubbi_waiting.jpg" alt="Puppy" data-toggle="modal" data-target="#picture2">
+          <h2 class="text-uppercase text-bold">Gubbi</h2>
+          <p>http://github/premkgowda/Gubbi</p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive img-rounded" src="images/cake_top.jpg" alt="Birthday Cake" data-toggle="modal" data-target="#picture3">
+          <h2 class="text-uppercase text-bold">Birthday Cake</h2>
+          <p>http://github/premkgowda/cake_top  </p>
+        </div> 
+      </div>
+    </div>
+
+
+  <!-- Modal for picture 1 -->
+    <div class="modal fade" id="picture1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel1">Chocolate Cake</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12">
+                <img class="img-responsive text-center" src="images/cake_side.jpg" alt="Chocolate Cake">
+                <br>
+                <p> Closeup pictureof the cake taken from Canon 60D with aperture setting.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for picture 2 -->
+    <div class="modal fade" id="picture2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel2">Gubbi</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12">
+                <img class="img-responsive text-center" src="images/gubbi_waiting.jpg" alt="Puppy">
+                <br>
+                <p> This is our first puppy. Not sure what she is doing there.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Modal for picture 3 -->
+    <div class="modal fade" id="picture3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel3">Birthday Cake</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12">
+                <img class="img-responsive text-center" src="images/cake_top.jpg" alt="Birthday Cake">
+                <br>
+                <p> Picture taken from Canon 60D on a birthday
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
